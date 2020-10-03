@@ -7,4 +7,7 @@ package com.uyun.common;
  * @create: 2020-10-03 16:20
  */
 public class Test {
+    public static void main(String[] args) {
+
+    }
 }
