@@ -25,7 +25,6 @@ public class PaymentController {
     @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment){
         int result = paymentService.create(payment);
-        new AtomicInteger()
         log.info("*****插入结果："+result);
         if (result>0){  //成功
             System.out.println("插入数据库成功,我是8001");
